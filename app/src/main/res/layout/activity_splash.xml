@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picalicious_splash">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ivSpalsh"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:src="@drawable/photocamera"-->
+            <!--android:layout_height="80dp" />-->
+
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ivSpalshTwo"-->
+            <!--android:layout_toRightOf="@+id/ivSpalsh"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:src="@drawable/search"-->
+            <!--android:layout_height="80dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ivSpalshThree"-->
+            <!--android:layout_toRightOf="@+id/ivSpalshTwo"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:src="@drawable/photoss"-->
+            <!--android:layout_height="80dp" />-->
+
+
+
+        <!--<com.kumar.pavan.picalicious.NativelyCustomTextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/ivSpalshThree"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:text="Picalicious"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="60dp"-->
+            <!--android:textStyle="bold" />-->
+    <!--</RelativeLayout>-->
+</RelativeLayout>

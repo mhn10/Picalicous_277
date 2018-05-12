@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/ivPhoto"
+    android:layout_width="250dp"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="250dp" />
+
+
+
+        <EditText
+            android:id="@+id/inputtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:textColorHighlight="#ffffff"
+            android:layout_margin="20dp"
+            android:textColor="#ffffff"
+            android:hint="say something about this picture" />
+
+
+</LinearLayout>

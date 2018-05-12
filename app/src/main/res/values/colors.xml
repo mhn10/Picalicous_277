@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Screens background color-->
+    <color name="bg_slider_screen1">#f4b241</color>
+    <color name="bg_slider_screen2">#16bc7d</color>
+    <color name="bg_slider_screen3">#203d8c</color>
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#C0C0C0</color>
+    <color name="dot_inactive_screen2">#C0C0C0</color>
+    <color name="dot_inactive_screen3">#C0C0C0</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#696969</color>
+    <color name="dot_active_screen2">#696969</color>
+    <color name="dot_active_screen3">#696969</color>
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+    </array>
+</resources>

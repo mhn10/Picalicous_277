@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="picalicious.pavan.kumar.com.picalicious">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".SpashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".MyPhotosActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".WelcomeActivity"
+            ></activity>
+
+        <activity android:name=".HomeScreenActivity"
+            android:screenOrientation="portrait"
+
+            ></activity>
+
+        <activity android:name=".AddPhotoActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".AddtoDiary"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".SmartSearchActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".MyDiaryActivity"
+            android:screenOrientation="portrait"></activity>
+
+    </application>
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+
+    <!-- Accessing camera hardware -->
+    <uses-feature android:name="android.hardware.camera" />
+</manifest>
