@@ -17,27 +17,41 @@
 
 
         <activity android:name=".MyPhotosActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait">
+
+        </activity>
 
         <activity android:name=".WelcomeActivity"
-            ></activity>
+            >
+
+        </activity>
 
         <activity android:name=".HomeScreenActivity"
             android:screenOrientation="portrait"
 
-            ></activity>
+            >
+
+        </activity>
 
         <activity android:name=".AddPhotoActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait">
+
+        </activity>
 
         <activity android:name=".AddtoDiary"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait">
+
+        </activity>
 
         <activity android:name=".SmartSearchActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait">
+
+        </activity>
 
         <activity android:name=".MyDiaryActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait">
+
+        </activity>
 
     </application>
 
@@ -47,6 +61,8 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 
     <!-- Accessing camera hardware -->
     <uses-feature android:name="android.hardware.camera" />
