@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#7BE6E7"
@@ -28,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#ebb771"
+                android:background="#4FC3F7"
 
                 android:gravity="center_horizontal|center_vertical"
                 android:orientation="horizontal">
@@ -55,7 +56,8 @@
                         android:text="My Photos"
                         android:textColor="#ffffff"
                         android:textSize="20dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto" />
 
                     <ImageView
                         android:layout_width="30dp"
@@ -72,7 +74,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#afd676"
+                android:background="#81D4FA"
+
+
 
 
 
@@ -101,7 +105,8 @@
                         android:text="My Diary"
                         android:textColor="#ffffff"
                         android:textSize="20dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto"/>
 
                     <ImageView
                         android:layout_width="30dp"
@@ -117,7 +122,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#f78586"
+                android:background="#80DEEA"
                 android:gravity="center_horizontal|center_vertical"
                 android:orientation="horizontal">
 
@@ -143,7 +148,8 @@
                         android:text="Smart Search"
                         android:textColor="#ffffff"
                         android:textSize="20dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto"/>
 
                     <ImageView
                         android:layout_width="30dp"

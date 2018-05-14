@@ -11,4 +11,4 @@ Android App developed as part of CMPE 277 at SJSU, using google Cloud vision API
 
 
 
-<img src="https://github.com/mhn10/Picalicous_277/blob/master/app/src/main/res/drawable/picalicious_splash.png?raw=true" width="100" height="200">
+<img src="https://github.com/mhn10/Picalicous_277/blob/master/app/src/main/res/drawable/picalicious_splash.png?raw=true" width="200" height="300">

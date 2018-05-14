@@ -804,6 +804,10 @@
         "source": "C:\\Users\\mithun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6413cc79627dc1b9138b275034b722ac\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto_thin.xml.flat",
+        "source": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\src\\main\\res\\font\\roboto_thin.xml"
+    },
+    {
         "merged": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient.xml.flat",
         "source": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\src\\main\\res\\drawable\\gradient.xml"
     },
@@ -1546,6 +1550,10 @@
     {
         "merged": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\mithun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6413cc79627dc1b9138b275034b722ac\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto.xml.flat",
+        "source": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\src\\main\\res\\font\\roboto.xml"
     },
     {
         "merged": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",

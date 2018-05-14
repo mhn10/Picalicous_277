@@ -11,10 +11,10 @@ INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277Fi
 	android:name
 		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:71:13-67
 manifest
-ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-81:12
+ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-84:12
 MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\647be00dd47aef1f61e85e648c9b09de\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\893a6021b59de118c66692afeedecf77\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6413cc79627dc1b9138b275034b722ac\AndroidManifest.xml:17:1-31:12
@@ -30,20 +30,20 @@ MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\mithun\.gradle
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\22b633df4e0bb4bc42631bf20967141a\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\34671f24056b994e741e6945ba694f44\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\47bf5d4ec34425fc4689291d54500f08\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-84:12
 	package
 		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:3:5-54
 		INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-81:12
+		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-84:12
 		INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-81:12
+		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:1-84:12
 		INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -76,7 +76,7 @@ ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277Final
 	android:name
 		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:13:19-57
 application
-ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:15:5-79:19
+ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:15:5-82:19
 MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\647be00dd47aef1f61e85e648c9b09de\AndroidManifest.xml:11:5-15:19
 MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\647be00dd47aef1f61e85e648c9b09de\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\893a6021b59de118c66692afeedecf77\AndroidManifest.xml:25:5-29:19
@@ -183,6 +183,12 @@ ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277Final
 		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:66:13-56
 	android:name
 		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:64:13-44
+meta-data#preloaded_fonts
+ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:79:9-81:57
+	android:resource
+		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:81:13-54
+	android:name
+		ADDED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml:80:13-43
 uses-sdk
 INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\MORE\android studio projects and libraries\Picalicous\CMPE277FinalApp\app\src\main\AndroidManifest.xml
