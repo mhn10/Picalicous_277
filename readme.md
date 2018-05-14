@@ -9,4 +9,4 @@ Android App developed as part of CMPE 277 at SJSU, using google Cloud vision API
 
 [Project presentation](https://docs.google.com/presentation/d/1_PnVPAkVe09luRH8J_mdTzbYXJEvodit5GWFch7L47E/edit?usp=sharing)
 
-![Splash screen](app/src/main/res/drawable/picalicious_splash.png)
+![Splash screen](app/src/main/res/drawable/picalicious_splash.png =150x150)
