@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon May 14 02:11:17 PDT 2018
+#Mon May 14 03:11:12 PDT 2018
 1.base=D\:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28
 2.path=fonts/Pacifico.ttf
 0.baseType=DIRECTORY

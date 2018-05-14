@@ -10,7 +10,8 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior"
                 tools:context=".SmartSearchActivity"
-                tools:showIn="@layout/vision_activity_basic">
+                tools:showIn="@layout/vision_activity_basic"
+                android:background="@drawable/gradient">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,8 +26,16 @@
                 android:id="@+id/image_details"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
                 android:layout_marginBottom="8dp"
-               />
+                android:fontFamily="@font/roboto"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:shadowColor="#B0BEC5"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="5"
+                />
 
             <ImageView
                 android:id="@+id/main_image"
