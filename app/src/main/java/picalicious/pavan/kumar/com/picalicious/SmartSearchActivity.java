@@ -67,7 +67,7 @@ public class SmartSearchActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.smart_search);
+        setContentView(R.layout.smart_search_main);
         startGalleryChooser();
 
         mImageDetails = findViewById(R.id.image_details);
@@ -82,6 +82,7 @@ public class SmartSearchActivity extends AppCompatActivity {
                     GALLERY_IMAGE_REQUEST);
         }
     }
+
     public File getCameraFile() {
         File dir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
         return new File(dir, FILE_NAME);

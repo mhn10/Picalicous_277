@@ -1,4 +1,7 @@
-#Sun May 13 19:32:56 PDT 2018
-base.0=D\:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Sun May 13 21:26:56 PDT 2018
+base.0=D\:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=D\:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13

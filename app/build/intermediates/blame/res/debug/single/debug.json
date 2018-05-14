@@ -384,6 +384,10 @@
         "source": "C:\\Users\\mithun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6413cc79627dc1b9138b275034b722ac\\res\\layout\\abc_screen_simple.xml"
     },
     {
+        "merged": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_smart_search_main.xml.flat",
+        "source": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\src\\main\\res\\layout\\smart_search_main.xml"
+    },
+    {
         "merged": "D:\\MORE\\android studio projects and libraries\\Picalicous\\CMPE277FinalApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\mithun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6413cc79627dc1b9138b275034b722ac\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },

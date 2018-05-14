@@ -4067,9 +4067,10 @@ public final class R {
     public static final int slide_screen2=0x7f0b004a;
     public static final int slide_screen3=0x7f0b004b;
     public static final int smart_search=0x7f0b004c;
-    public static final int support_simple_spinner_dropdown_item=0x7f0b004d;
-    public static final int tooltip=0x7f0b004e;
-    public static final int vision_activity_basic=0x7f0b004f;
+    public static final int smart_search_main=0x7f0b004d;
+    public static final int support_simple_spinner_dropdown_item=0x7f0b004e;
+    public static final int tooltip=0x7f0b004f;
+    public static final int vision_activity_basic=0x7f0b0050;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0c0000;
