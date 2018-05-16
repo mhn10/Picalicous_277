@@ -34,19 +34,22 @@ public class FirebaseSend extends AppCompatActivity {
         setContentView(R.layout.activity_firebase_send);
 
         //db initialize
-        PhotosDatabase db = PhotosDatabase.getDatabase(this);
+        PhotosDatabase db = PhotosDatabase.getDatabase(getApplicationContext());
 
 
 
-        // get data and initilize it in proper form for firebase storage
+        // get data and initilize it in proper form for Room storage
         Intent intent = getIntent();
         String message = intent.getStringExtra(SmartSearchActivity.FIREBASE_STRING);
         String datapath = intent.getStringExtra(SmartSearchActivity.FIREBASE_DATAPATH);
 
+        Log.i("firebase_message", message);
+        Log.i("firebase_datapath", datapath);
+        photo = new Photos(datapath, message);
         //db
-        photo.setFilepath(datapath);
-        photo.setLabels(message);
-        //db.insertData(this,photo);
+       // photo.setFilepath(datapath);
+       // photo.setLabels(message);
+        db.photosDAO().insert(photo);
 
 
 
@@ -61,7 +64,9 @@ public class FirebaseSend extends AppCompatActivity {
         List<String> labelslist = new ArrayList<String>(Arrays.asList( labelsArray ));
         labelslist.remove(5);
 
+        String s = "dog";
 
+        List<String> db_labels = new ArrayList<String>(db.photosDAO().getPhotoswithLabels(s));
         /*
         //List<String> toplabels = new ArrayList<String>(labelslist.subList(0,5));
 
@@ -73,9 +78,9 @@ public class FirebaseSend extends AppCompatActivity {
         //Log.i("firebase_textview", labelslist.toString());
         Log.i("pid", pid);
 
-        message2= TextUtils.join(", ", labelslist);
+        message2= TextUtils.join(", ", db_labels);
         TextView textView = findViewById(R.id.firebase_string);
-        textView.setText(labelslist.toString());
+        textView.setText(db_labels.toString());
 
         mMainImage = findViewById(R.id.imageView_firebase);
 

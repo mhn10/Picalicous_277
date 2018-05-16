@@ -7,6 +7,7 @@ import android.content.Context;
 
 @Database(entities =  {Photos.class}, version = 1)
 public abstract class PhotosDatabase extends RoomDatabase{
+
     public abstract PhotosDAO photosDAO();
     private static PhotosDatabase INSTANCE;
 
@@ -14,7 +15,7 @@ public abstract class PhotosDatabase extends RoomDatabase{
         if(INSTANCE == null){
             synchronized (PhotosDatabase.class){
                 if(INSTANCE == null){
-                    INSTANCE = Room.databaseBuilder(context.getApplicationContext(),PhotosDatabase.class, "photo_database").build();
+                    INSTANCE = Room.databaseBuilder(context.getApplicationContext(),PhotosDatabase.class, "photo_database").allowMainThreadQueries().build();
                 }
             }
 

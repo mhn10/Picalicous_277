@@ -18,10 +18,10 @@ public class Photos {
     public  String labels = "";
 
     //constructor
+
     public  Photos(@NonNull String filepath, String labels) {
         this.filepath=filepath; this.labels=labels;
     }
-
    //getter
     public String getPhotos(){
         return this.filepath;
