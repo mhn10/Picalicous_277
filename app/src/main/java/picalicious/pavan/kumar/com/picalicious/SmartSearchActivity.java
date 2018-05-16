@@ -75,6 +75,7 @@ public class SmartSearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.smart_search_main);
+
         startGalleryChooser();
 
         mImageDetails = findViewById(R.id.image_details);

@@ -45,12 +45,19 @@ public class FirebaseSend extends AppCompatActivity {
 
         Log.i("firebase_message", message);
         Log.i("firebase_datapath", datapath);
-        photo = new Photos(datapath, message);
-        //db
-       // photo.setFilepath(datapath);
-       // photo.setLabels(message);
-        db.photosDAO().insert(photo);
-
+        try {
+            photo = new Photos(datapath, message);
+            //db
+            // photo.setFilepath(datapath);
+            // photo.setLabels(message);
+            db.photosDAO().insert(photo);
+        } catch (Exception e) {
+            e.printStackTrace();
+            Log.d(TAG, "Image picking failed because " + e.getMessage());
+            Toast.makeText(this, R.string.same_image, Toast.LENGTH_LONG).show();
+            Intent transfer = new Intent(this, HomeScreenActivity.class);
+            startActivity(transfer);
+        }
 
 
         uri = Uri.parse(datapath);

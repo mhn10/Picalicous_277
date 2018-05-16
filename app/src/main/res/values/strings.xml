@@ -22,5 +22,7 @@
     <string name="dialog_select_camera">Camera</string>
     <string name="dialog_select_gallery">Gallery</string>
 
+
     <string name="image_picker_error">Something is wrong with that image. Pick a different one please.</string>
+    <string name="same_image">Image Already exists and labelled, Visit Gallery.</string>
 </resources>
