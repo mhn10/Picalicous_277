@@ -21,6 +21,12 @@ public abstract class PhotosDatabase extends RoomDatabase{
         }
         return INSTANCE;
     }
-
+/*
+    public static void insertData(final PhotosDatabase database, final Photos photo){
+        database.runInTransaction(()->{
+            database.photosDAO().insert(Photo);
+        });
+    }
+*/
 
 }

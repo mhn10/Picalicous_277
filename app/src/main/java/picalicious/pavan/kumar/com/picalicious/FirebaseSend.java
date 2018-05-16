@@ -9,7 +9,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;0
+import android.widget.Toast;
 import android.support.v7.app.AppCompatActivity;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -19,7 +19,9 @@ import java.util.stream.Collectors;
 
 public class FirebaseSend extends AppCompatActivity {
     public String pid;
+    public Photos photo;
     private static final int MAX_DIMENSION = 1200;
+
 
     private static final String TAG = FirebaseSend.class.getSimpleName();
     public String[] labelsArray;
@@ -31,11 +33,23 @@ public class FirebaseSend extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_firebase_send);
 
+        //db initialize
+        PhotosDatabase db = PhotosDatabase.getDatabase(this);
+
+
 
         // get data and initilize it in proper form for firebase storage
         Intent intent = getIntent();
         String message = intent.getStringExtra(SmartSearchActivity.FIREBASE_STRING);
         String datapath = intent.getStringExtra(SmartSearchActivity.FIREBASE_DATAPATH);
+
+        //db
+        photo.setFilepath(datapath);
+        photo.setLabels(message);
+        //db.insertData(this,photo);
+
+
+
         uri = Uri.parse(datapath);
         //remove string
         message = message.replace("This picture contains :","");
