@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
+            <EditText
                 android:id="@+id/image_details"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,6 +36,14 @@
                 android:shadowDy="1"
                 android:shadowRadius="5"
                 />
+
+            <Button
+                android:id="@+id/image_details_submit"
+                style="@android:style/TextAppearance.Material.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sendMessage"
+                android:text="Submit" />
 
             <ImageView
                 android:id="@+id/main_image"

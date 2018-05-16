@@ -18,6 +18,8 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -53,13 +55,14 @@ public class SmartSearchActivity extends AppCompatActivity {
     private static final String ANDROID_PACKAGE_HEADER = "X-Android-Package";
     private static final int MAX_LABEL_RESULTS = 10;
     private static final int MAX_DIMENSION = 1200;
-
+    public static final String FIREBASE_STRING = "picalicious.pavan.kumar.com.picalicious.FIREBASE_STRING";
     private static final String TAG = SmartSearchActivity.class.getSimpleName();
     private static final int GALLERY_PERMISSIONS_REQUEST = 0;
     private static final int GALLERY_IMAGE_REQUEST = 1;
     public static final int CAMERA_PERMISSIONS_REQUEST = 2;
     public static final int CAMERA_IMAGE_REQUEST = 3;
-
+    public Uri photoUri;
+    public String datapath;
     private TextView mImageDetails;
     private ImageView mMainImage;
 
@@ -72,6 +75,17 @@ public class SmartSearchActivity extends AppCompatActivity {
 
         mImageDetails = findViewById(R.id.image_details);
         mMainImage = findViewById(R.id.main_image);
+
+    }
+    public void sendMessage(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, FirebaseSend.class);
+        EditText editText = (EditText) findViewById(R.id.image_details);
+        String message = editText.getText().toString();
+        message= message.concat(datapath+" "+message);
+        Log.i("firebase-send", message);
+        intent.putExtra(FIREBASE_STRING, message);
+        startActivity(intent);
     }
     public void startGalleryChooser() {
         if (PermissionUtils.requestPermission(this, GALLERY_PERMISSIONS_REQUEST, Manifest.permission.READ_EXTERNAL_STORAGE)) {
@@ -92,9 +106,12 @@ public class SmartSearchActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == GALLERY_IMAGE_REQUEST && resultCode == RESULT_OK && data != null) {
+            Log.i("Data", data.getData().toString());
+            datapath=data.getData().toString().replace("content://com.android.providers.media.documents/document/image%","");
             uploadImage(data.getData());
         } else if (requestCode == CAMERA_IMAGE_REQUEST && resultCode == RESULT_OK) {
-            Uri photoUri = FileProvider.getUriForFile(this, getApplicationContext().getPackageName() + ".provider", getCameraFile());
+            photoUri = FileProvider.getUriForFile(this, getApplicationContext().getPackageName() + ".provider", getCameraFile());
+            Log.i("photouri", photoUri.toString());
             uploadImage(photoUri);
         }
     }
@@ -234,6 +251,8 @@ public class SmartSearchActivity extends AppCompatActivity {
             if (activity != null && !activity.isFinishing()) {
                 TextView imageDetail = activity.findViewById(R.id.image_details);
                 imageDetail.setText(result);
+
+
             }
         }
     }
@@ -273,12 +292,12 @@ public class SmartSearchActivity extends AppCompatActivity {
     }
 
     private static String convertResponseToString(BatchAnnotateImagesResponse response) {
-        StringBuilder message = new StringBuilder("I found these things:\n\n");
+        StringBuilder message = new StringBuilder("This picture contains :\n\n");
 
         List<EntityAnnotation> labels = response.getResponses().get(0).getLabelAnnotations();
         if (labels != null) {
-            for (EntityAnnotation label : labels) {
-                message.append(String.format(Locale.US, "%.3f: %s", label.getScore(), label.getDescription()));
+            for (int i=0; i<5;i++){
+                message.append(String.format(Locale.US, "%s,", labels.get(i).getDescription()));
                 message.append("\n");
             }
         } else {

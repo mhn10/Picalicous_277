@@ -34,36 +34,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="picalicious.pavan.kumar.com.picalicious.MyPhotosActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity android:name="picalicious.pavan.kumar.com.picalicious.WelcomeActivity" >
-        </activity>
-        <activity
-            android:name="picalicious.pavan.kumar.com.picalicious.HomeScreenActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="picalicious.pavan.kumar.com.picalicious.AddPhotoActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="picalicious.pavan.kumar.com.picalicious.AddtoDiary"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="picalicious.pavan.kumar.com.picalicious.SmartSearchActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="picalicious.pavan.kumar.com.picalicious.MyDiaryActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+        <activity android:name="picalicious.pavan.kumar.com.picalicious.MyPhotosActivity" />
+        <activity android:name="picalicious.pavan.kumar.com.picalicious.WelcomeActivity" />
+        <activity android:name="picalicious.pavan.kumar.com.picalicious.HomeScreenActivity" />
+        <activity android:name="picalicious.pavan.kumar.com.picalicious.AddPhotoActivity" />
+        <activity android:name="picalicious.pavan.kumar.com.picalicious.AddtoDiary" />
+        <activity android:name="picalicious.pavan.kumar.com.picalicious.SmartSearchActivity" />
+        <activity android:name="picalicious.pavan.kumar.com.picalicious.MyDiaryActivity" />
         <activity
             android:name="picalicious.pavan.kumar.com.picalicious.vision_activity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
 
@@ -80,6 +60,15 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="picalicious.pavan.kumar.com.picalicious.FirebaseSend"
+            android:parentActivityName="picalicious.pavan.kumar.com.picalicious.HomeScreenActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeScreenActivity" />
+        </activity>
+
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />

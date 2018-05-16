@@ -18,6 +18,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 public class MyPhotosActivity extends Activity {
+
     ArrayList<String> f = new ArrayList<String>();// list of file paths
     File[] listFile;
     private ImageAdapter imageAdapter;
