@@ -20,13 +20,15 @@ public class FirebaseSend extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_firebase_send);
+
+        // get data and initilize it in proper form for firebase storage
         Intent intent = getIntent();
         String message = intent.getStringExtra(SmartSearchActivity.FIREBASE_STRING);
-
+        //remove string
         message = message.replace("This picture contains :","");
         labelsArray = message.trim().split("\\s*,\\s*");
         pid = labelsArray[5];
-
+        //store picture id as key to firebase
         pid = pid.substring(0,7);
 
         List<String> labelslist = new ArrayList<String>(Arrays.asList( labelsArray ));
