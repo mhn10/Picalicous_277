@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/firebase_string"
         android:layout_width="236dp"
-        android:layout_height="427dp"
+        android:layout_height="261dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto"
@@ -24,4 +24,16 @@
         app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_firebase"
+        android:layout_width="181dp"
+        android:layout_height="159dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firebase_string"
+        app:srcCompat="@android:color/transparent" />
 </android.support.constraint.ConstraintLayout>

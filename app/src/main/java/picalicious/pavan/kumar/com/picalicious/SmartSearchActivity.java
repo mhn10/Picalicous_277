@@ -55,7 +55,11 @@ public class SmartSearchActivity extends AppCompatActivity {
     private static final String ANDROID_PACKAGE_HEADER = "X-Android-Package";
     private static final int MAX_LABEL_RESULTS = 10;
     private static final int MAX_DIMENSION = 1200;
+
+
     public static final String FIREBASE_STRING = "picalicious.pavan.kumar.com.picalicious.FIREBASE_STRING";
+    public static final String FIREBASE_DATAPATH = "picalicious.pavan.kumar.com.picalicious.FIREBASE_DATAPATH";
+
     private static final String TAG = SmartSearchActivity.class.getSimpleName();
     private static final int GALLERY_PERMISSIONS_REQUEST = 0;
     private static final int GALLERY_IMAGE_REQUEST = 1;
@@ -85,6 +89,7 @@ public class SmartSearchActivity extends AppCompatActivity {
         message= message.concat(datapath+" "+message);
         Log.i("firebase-send", message);
         intent.putExtra(FIREBASE_STRING, message);
+        intent.putExtra(FIREBASE_DATAPATH,datapath);
         startActivity(intent);
     }
     public void startGalleryChooser() {
@@ -107,7 +112,8 @@ public class SmartSearchActivity extends AppCompatActivity {
 
         if (requestCode == GALLERY_IMAGE_REQUEST && resultCode == RESULT_OK && data != null) {
             Log.i("Data", data.getData().toString());
-            datapath=data.getData().toString().replace("content://com.android.providers.media.documents/document/image%","");
+            datapath=data.getData().toString();
+                    //.toString().replace("content://com.android.providers.media.documents/document/image%","");
             uploadImage(data.getData());
         } else if (requestCode == CAMERA_IMAGE_REQUEST && resultCode == RESULT_OK) {
             photoUri = FileProvider.getUriForFile(this, getApplicationContext().getPackageName() + ".provider", getCameraFile());
