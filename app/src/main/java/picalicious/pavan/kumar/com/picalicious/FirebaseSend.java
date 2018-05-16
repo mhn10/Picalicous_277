@@ -3,6 +3,7 @@ package picalicious.pavan.kumar.com.picalicious;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -25,20 +26,26 @@ public class FirebaseSend extends AppCompatActivity {
         message = message.replace("This picture contains :","");
         labelsArray = message.trim().split("\\s*,\\s*");
         pid = labelsArray[5];
+
         pid = pid.substring(0,7);
-        List<String> labelslist = Arrays.asList( labelsArray );
-        List<String> toplabels = new ArrayList<String>(labelslist.subList(0,5));
+
+        List<String> labelslist = new ArrayList<String>(Arrays.asList( labelsArray ));
+        labelslist.remove(5);
+
+
+        /*
+        //List<String> toplabels = new ArrayList<String>(labelslist.subList(0,5));
 
         for (int i=0;i<5;i++){
 
             message2=message2+toplabels.get(i)+"\n";
         }
-
-        Log.i("firebase_textview", message2);
+        */
+        //Log.i("firebase_textview", labelslist.toString());
         Log.i("pid", pid);
 
-
+        message2= TextUtils.join(", ", labelslist);
         TextView textView = findViewById(R.id.firebase_string);
-        textView.setText(message2);
+        textView.setText(labelslist.toString());
     }
 }
