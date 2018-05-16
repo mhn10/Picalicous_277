@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "896040534599",
+    "firebase_url": "https://cmpe277finalapp.firebaseio.com",
+    "project_id": "cmpe277finalapp",
+    "storage_bucket": "cmpe277finalapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896040534599:android:03fbaa9616c50d52",
+        "android_client_info": {
+          "package_name": "picalicious.pavan.kumar.com.picalicious"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896040534599-odf89gdg6mdtslqiah7g83bs23ogorug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "picalicious.pavan.kumar.com.picalicious",
+            "certificate_hash": "087e07277fab8568c4ef04b59465bb8f1f1e1a10"
+          }
+        },
+        {
+          "client_id": "896040534599-drg6b871024ufi8cgft0b9ro5qusbcb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1lzWuZeyNXZ8KEltewP1EWOMZn0xs77c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896040534599-drg6b871024ufi8cgft0b9ro5qusbcb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
