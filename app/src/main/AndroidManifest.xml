@@ -30,6 +30,7 @@
         <activity android:name=".WelcomeActivity"></activity>
         <activity android:name=".HomeScreenActivity"></activity>
         <activity android:name=".AddPhotoActivity"></activity>
+        <activity android:name=".SearchFromDatabaseActivity"></activity>
         <activity android:name=".AddtoDiary"></activity>
         <activity android:name=".SmartSearchActivity"></activity>
         <activity android:name=".MyDiaryActivity"></activity>

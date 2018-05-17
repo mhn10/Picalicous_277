@@ -11,6 +11,7 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -26,6 +27,7 @@ public class HomeScreenActivity extends Activity {
     private static final int CAMERA_REQUEST = 1888;
     private static final int MY_CAMERA_PERMISSION_CODE = 100;
     private static final int STORAGE_CODE = 200;
+    FloatingActionButton fab;
     private Bitmap photo;
 
     @Override
@@ -37,6 +39,15 @@ public class HomeScreenActivity extends Activity {
         llSmartSearch=(LinearLayout)findViewById(R.id.llSmartSearch);
         llMyDiary=(LinearLayout)findViewById(R.id.llMyDiary);
         Button button = (Button) findViewById(R.id.button);
+         fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Click action
+                Intent intent = new Intent(HomeScreenActivity.this, SearchFromDatabaseActivity.class);
+                startActivity(intent);
+            }
+        });
         final Animation myAnim = AnimationUtils.loadAnimation(this, R.anim.bounce);
 
         // Use bounce interpolator with amplitude 0.2 and frequency 20
@@ -44,13 +55,13 @@ public class HomeScreenActivity extends Activity {
         myAnim.setInterpolator(interpolator);
 
         button.startAnimation(myAnim);
-        llCamera.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(HomeScreenActivity.this, AddPhotoActivity.class));
-                overridePendingTransition(R.anim.enter, R.anim.exit);
-            }
-        });
+//        llCamera.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(HomeScreenActivity.this, AddPhotoActivity.class));
+//                overridePendingTransition(R.anim.enter, R.anim.exit);
+//            }
+//        });
         llMyPhotos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

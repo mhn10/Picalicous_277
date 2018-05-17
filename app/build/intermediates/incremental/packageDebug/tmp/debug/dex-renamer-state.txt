@@ -1,0 +1,4 @@
+#Thu May 17 13:04:23 PDT 2018
+base.0=C\:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Thu May 17 13:04:23 PDT 2018
+1.base=C\:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=fonts/Pacifico.ttf
+0.set=ASSET
+0.base=C\:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\assets\\debug
+1.path=classes.dex

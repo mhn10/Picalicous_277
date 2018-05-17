@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\assets"><file name="fonts/Pacifico.ttf" path="C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\assets\fonts\Pacifico.ttf"/></source><source path="C:\Users\pavan\Documents\PICA MHN PKS\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\pavan\Documents\PICA MHN PKS\app\src\debug\assets"/></dataSet></merger>
