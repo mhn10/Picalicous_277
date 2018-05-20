@@ -1,256 +1,256 @@
 -- Merging decision tree log ---
 provider#android.support.v4.content.FileProvider
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:44:9-52:20
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:44:9-52:20
 	android:grantUriPermissions
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:48:13-47
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:48:13-47
 	android:authorities
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:46:13-60
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:46:13-60
 	android:exported
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:47:13-37
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:45:13-67
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:45:13-67
 manifest
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:2:1-66:12
-MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\459ec8d0160ef2fa9576e43c1491aa65\AndroidManifest.xml:2:1-17:12
-MERGED from [com.android.support:design:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\ddcef73693c7f92988c6c2533c7cbea8\AndroidManifest.xml:17:1-22:12
-MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:2:1-23:12
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\b7c1e09f25eb57e778243c7c30144157\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1f53a658e5dc4b7d7d989d5643468b42\AndroidManifest.xml:2:1-11:12
-MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5c6d241cc08bf4b0c8bab60f22161ac4\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\f0b628c1360027ca2ba680b25210810c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\97aab244b5e00447bc9b58a249fbd258\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\7692727ad972b7c66d670897f42e1aba\AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.persistence:db:1.0.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\bb304df1fa9c7a118764de58bf931470\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\3972f9ed1e194b729a5202fef7050afe\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d6277b7bd70e749e2683f43f97623def\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\2a3a07893900fb6e6d2d6b0011f8244b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\00fe5598d6820182ce82a189b135c007\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\7ae2c3a64bbb27b65889edd1aed36ff0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\fefb2acae72f296ee51c9d4a200fb573\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\e35a6f4669f80cee8497498314646735\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\bc2ee076c7711e31110768d95b181423\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\c881860b799f2a1654ea59b7599071d3\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0570c4d9e6b691256060a8c1d74a75d9\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d6a22830b5ede71c9f657a5969352e05\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\53863504f74d367e26ab47501319c697\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:2:1-66:12
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:2:1-66:12
+MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\647be00dd47aef1f61e85e648c9b09de\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\8972e9ce2d4fef7fe6e7b7fd514b8988\AndroidManifest.xml:17:1-22:12
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\02ce0e02b175c803b8f850bb47ec1534\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7c3507c0ff16484ac1dc278ebc4d5c3b\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\27998d1ac6cffc806fedc83570029f0a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\2f6b0105ff76a3afaf74db7d075a55aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\babaa393cab99302fcc8250c2f2585f4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\2b7b9e0a757f387848c881b99d43e3ce\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\2feb4ed23489840fe62e0ea1b860ee02\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\1cee2154b77482a984c802d0f5c94d8d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d860998d8aba4274956601e6f8eb3980\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\5a059ebcdc0682bdf4e4efa267a9ce09\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\96aba794823aad4901c0a87b70d76aab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\e6da2f34204711441cd3029f5b77542d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\22a158837370d12d245803f56c63cc38\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\397bea6ec57aa2a60d3357a4e765369d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\b5e1905cd0cd5ecbe03498a15bbbf9da\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\55528e1aeed614344aec36daf4c86aa0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f4a9036adb99aac00a5ee83f364052b1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1870b541b27a19df106f5862284b7a82\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8bb6115d3ae8247c2e05b6de27bf7629\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:2:1-66:12
 	package
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:3:5-54
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:3:5-54
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:2:1-66:12
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:2:1-66:12
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:2:1-66:12
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:2:1-66:12
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.READ_INTERNAL_STORAGE
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:8:5-80
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:8:22-77
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:8:22-77
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:9:5-65
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:9:22-62
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:9:22-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:10:5-67
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:10:22-64
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:10:22-64
 uses-feature#android.hardware.camera
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:13:5-60
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:13:5-60
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:13:19-57
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:13:19-57
 application
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:15:5-64:19
-MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\459ec8d0160ef2fa9576e43c1491aa65\AndroidManifest.xml:11:5-15:19
-MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\459ec8d0160ef2fa9576e43c1491aa65\AndroidManifest.xml:11:5-15:19
-MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:11:5-21:19
-MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:11:5-21:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1f53a658e5dc4b7d7d989d5643468b42\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1f53a658e5dc4b7d7d989d5643468b42\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:15:5-64:19
+MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\647be00dd47aef1f61e85e648c9b09de\AndroidManifest.xml:11:5-15:19
+MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\647be00dd47aef1f61e85e648c9b09de\AndroidManifest.xml:11:5-15:19
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:11:5-21:19
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:11:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7c3507c0ff16484ac1dc278ebc4d5c3b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7c3507c0ff16484ac1dc278ebc4d5c3b\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:19:9-54
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:19:9-54
 	android:icon
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:17:9-43
 	android:allowBackup
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:21:9-40
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:21:9-40
 activity#picalicious.pavan.kumar.com.picalicious.SpashScreenActivity
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:22:19-54
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:22:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:26:27-74
 activity#picalicious.pavan.kumar.com.picalicious.MyPhotosActivity
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:29:9-63
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:29:9-63
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:29:19-51
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:29:19-51
 activity#picalicious.pavan.kumar.com.picalicious.WelcomeActivity
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:30:9-62
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:30:9-62
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:30:19-50
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:30:19-50
 activity#picalicious.pavan.kumar.com.picalicious.HomeScreenActivity
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:31:9-65
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:31:9-65
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:31:19-53
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:31:19-53
 activity#picalicious.pavan.kumar.com.picalicious.AddPhotoActivity
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:32:9-63
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:32:9-63
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:32:19-51
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:32:19-51
 activity#picalicious.pavan.kumar.com.picalicious.SearchFromDatabaseActivity
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:33:9-73
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:33:9-73
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:33:19-61
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:33:19-61
 activity#picalicious.pavan.kumar.com.picalicious.AddtoDiary
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:34:9-57
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:34:9-57
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:34:19-45
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:34:19-45
 activity#picalicious.pavan.kumar.com.picalicious.SmartSearchActivity
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:35:9-66
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:35:9-66
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:35:19-54
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:35:19-54
 activity#picalicious.pavan.kumar.com.picalicious.MyDiaryActivity
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:36:9-62
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:36:9-62
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:36:19-50
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:36:19-50
 activity#picalicious.pavan.kumar.com.picalicious.vision_activity
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:37:9-42:20
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:37:9-42:20
 	android:label
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:39:13-45
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:39:13-45
 	android:theme
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:40:13-56
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:38:13-44
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:38:13-44
 meta-data#preloaded_fonts
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:54:9-56:57
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:54:9-56:57
 	android:resource
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:56:13-54
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:56:13-54
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:55:13-43
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:55:13-43
 activity#picalicious.pavan.kumar.com.picalicious.FirebaseSend
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:58:9-63:20
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:58:9-63:20
 	android:parentActivityName
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:59:13-61
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:59:13-61
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:58:19-47
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:58:19-47
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:60:13-62:55
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:60:13-62:55
 	android:value
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:62:17-52
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:62:17-52
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:61:17-63
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:61:17-63
 uses-sdk
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\459ec8d0160ef2fa9576e43c1491aa65\AndroidManifest.xml:7:5-9:41
-MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\459ec8d0160ef2fa9576e43c1491aa65\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\ddcef73693c7f92988c6c2533c7cbea8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\ddcef73693c7f92988c6c2533c7cbea8\AndroidManifest.xml:20:5-44
-MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:7:5-9:41
-MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\b7c1e09f25eb57e778243c7c30144157\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\b7c1e09f25eb57e778243c7c30144157\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1f53a658e5dc4b7d7d989d5643468b42\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1f53a658e5dc4b7d7d989d5643468b42\AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5c6d241cc08bf4b0c8bab60f22161ac4\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5c6d241cc08bf4b0c8bab60f22161ac4\AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\f0b628c1360027ca2ba680b25210810c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\f0b628c1360027ca2ba680b25210810c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\97aab244b5e00447bc9b58a249fbd258\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\97aab244b5e00447bc9b58a249fbd258\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\7692727ad972b7c66d670897f42e1aba\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\7692727ad972b7c66d670897f42e1aba\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db:1.0.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\bb304df1fa9c7a118764de58bf931470\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db:1.0.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\bb304df1fa9c7a118764de58bf931470\AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\3972f9ed1e194b729a5202fef7050afe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\3972f9ed1e194b729a5202fef7050afe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d6277b7bd70e749e2683f43f97623def\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d6277b7bd70e749e2683f43f97623def\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\2a3a07893900fb6e6d2d6b0011f8244b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\2a3a07893900fb6e6d2d6b0011f8244b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\00fe5598d6820182ce82a189b135c007\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\00fe5598d6820182ce82a189b135c007\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\7ae2c3a64bbb27b65889edd1aed36ff0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\7ae2c3a64bbb27b65889edd1aed36ff0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\fefb2acae72f296ee51c9d4a200fb573\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\fefb2acae72f296ee51c9d4a200fb573\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\e35a6f4669f80cee8497498314646735\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\e35a6f4669f80cee8497498314646735\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\bc2ee076c7711e31110768d95b181423\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\bc2ee076c7711e31110768d95b181423\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\c881860b799f2a1654ea59b7599071d3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\c881860b799f2a1654ea59b7599071d3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0570c4d9e6b691256060a8c1d74a75d9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0570c4d9e6b691256060a8c1d74a75d9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d6a22830b5ede71c9f657a5969352e05\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d6a22830b5ede71c9f657a5969352e05\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\53863504f74d367e26ab47501319c697\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\53863504f74d367e26ab47501319c697\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\647be00dd47aef1f61e85e648c9b09de\AndroidManifest.xml:7:5-9:41
+MERGED from [com.applandeo:material-calendar-view:1.4.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\material-calendar-view-1.4.0.aar\647be00dd47aef1f61e85e648c9b09de\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\8972e9ce2d4fef7fe6e7b7fd514b8988\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\8972e9ce2d4fef7fe6e7b7fd514b8988\AndroidManifest.xml:20:5-44
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:7:5-9:41
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\02ce0e02b175c803b8f850bb47ec1534\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\02ce0e02b175c803b8f850bb47ec1534\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7c3507c0ff16484ac1dc278ebc4d5c3b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7c3507c0ff16484ac1dc278ebc4d5c3b\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\27998d1ac6cffc806fedc83570029f0a\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\27998d1ac6cffc806fedc83570029f0a\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\2f6b0105ff76a3afaf74db7d075a55aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\2f6b0105ff76a3afaf74db7d075a55aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\babaa393cab99302fcc8250c2f2585f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\babaa393cab99302fcc8250c2f2585f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\2b7b9e0a757f387848c881b99d43e3ce\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\2b7b9e0a757f387848c881b99d43e3ce\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\2feb4ed23489840fe62e0ea1b860ee02\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\2feb4ed23489840fe62e0ea1b860ee02\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\1cee2154b77482a984c802d0f5c94d8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\1cee2154b77482a984c802d0f5c94d8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d860998d8aba4274956601e6f8eb3980\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d860998d8aba4274956601e6f8eb3980\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\5a059ebcdc0682bdf4e4efa267a9ce09\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\5a059ebcdc0682bdf4e4efa267a9ce09\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\96aba794823aad4901c0a87b70d76aab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\96aba794823aad4901c0a87b70d76aab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\e6da2f34204711441cd3029f5b77542d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\e6da2f34204711441cd3029f5b77542d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\22a158837370d12d245803f56c63cc38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\22a158837370d12d245803f56c63cc38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\397bea6ec57aa2a60d3357a4e765369d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\397bea6ec57aa2a60d3357a4e765369d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\b5e1905cd0cd5ecbe03498a15bbbf9da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\b5e1905cd0cd5ecbe03498a15bbbf9da\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\55528e1aeed614344aec36daf4c86aa0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\55528e1aeed614344aec36daf4c86aa0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f4a9036adb99aac00a5ee83f364052b1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f4a9036adb99aac00a5ee83f364052b1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1870b541b27a19df106f5862284b7a82\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1870b541b27a19df106f5862284b7a82\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8bb6115d3ae8247c2e05b6de27bf7629\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8bb6115d3ae8247c2e05b6de27bf7629\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:49:13-51:58
+ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:49:13-51:58
 	android:resource
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:51:17-55
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:51:17-55
 	android:name
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:50:17-67
+		ADDED from C:\Users\mithun\StudioProjects\Picalicous_277_final\app\src\main\AndroidManifest.xml:50:17-67
 activity#cat.ereza.customactivityoncrash.activity.DefaultErrorActivity
-ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:12:9-14:49
+ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:12:9-14:49
 	android:process
-		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:14:13-46
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:14:13-46
 	android:name
-		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:13:13-89
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:13:13-89
 provider#cat.ereza.customactivityoncrash.provider.CaocInitProvider
-ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:16:9-20:39
+ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:16:9-20:39
 	android:authorities
-		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:18:13-85
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:18:13-85
 	android:exported
-		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:19:13-37
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:19:13-37
 	android:initOrder
-		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:20:13-36
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\pavan\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\618ca1c75278bc7edda588c21323ffae\AndroidManifest.xml:17:13-85
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\mithun\.gradle\caches\transforms-1\files-1.1\customactivityoncrash-2.2.0.aar\bd7e0ffd6e6bdbd15055fbcdf6c19ac0\AndroidManifest.xml:17:13-85

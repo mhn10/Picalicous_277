@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "C:\\Users\\mithun\\StudioProjects\\Picalicous_277_final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pavan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b7c1e09f25eb57e778243c7c30144157\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\mithun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\02ce0e02b175c803b8f850bb47ec1534\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
