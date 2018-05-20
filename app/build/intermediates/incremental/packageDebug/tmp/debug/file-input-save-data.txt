@@ -1,15 +1,11 @@
 #Internal package file, do not edit.
-#Sun May 20 02:44:05 PDT 2018
-1.base=C\:\\Users\\mithun\\StudioProjects\\Picalicous_277_final\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-2.path=fonts/Pacifico.ttf
+#Sun May 20 13:37:35 PDT 2018
+1.base=C\:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.baseType=DIRECTORY
-2.base=C\:\\Users\\mithun\\StudioProjects\\Picalicous_277_final\\app\\build\\intermediates\\assets\\debug
-2.set=ASSET
 1.baseType=DIRECTORY
-count=3
+count=2
 1.set=DEX
-0.path=classes.dex
-0.set=DEX
-0.base=C\:\\Users\\mithun\\StudioProjects\\Picalicous_277_final\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
-2.baseType=DIRECTORY
+0.path=fonts/Pacifico.ttf
+0.set=ASSET
+0.base=C\:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\assets\\debug
 1.path=classes.dex

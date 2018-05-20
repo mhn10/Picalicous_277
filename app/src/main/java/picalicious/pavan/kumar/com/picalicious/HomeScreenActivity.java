@@ -96,6 +96,7 @@ public class HomeScreenActivity extends Activity {
                                 MY_CAMERA_PERMISSION_CODE);
                     } else {
                         Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+
                         startActivityForResult(cameraIntent, CAMERA_REQUEST);
                     }
                 }
@@ -145,13 +146,15 @@ public class HomeScreenActivity extends Activity {
                             STORAGE_CODE);
                 } else {
                     saveToSD(photo);
+
+                    Intent i =new Intent(HomeScreenActivity.this, HomeScreenActivity.class);
+                    //i.putExtra("photopath",photo);
+                    startActivity(i);
                 }
             }
 
 
-            Intent i =new Intent(HomeScreenActivity.this, AddPhotoActivity.class);
-            i.putExtra("photopath",photo);
-            startActivity(i);
+
             //startActivity(new Intent(HomeScreenActivity.this, AddPhotoActivity.class));
 
         }
@@ -162,12 +165,12 @@ public class HomeScreenActivity extends Activity {
     public void saveToSD(Bitmap imageToSave) {
         File storagePath = new File(Environment.getExternalStorageDirectory() + "/Picaliciouss/");
         storagePath.mkdirs();
-
-        File myImage = new File(storagePath, Long.toString(System.currentTimeMillis()) + ".jpg");
-
+        File myImage = new File(storagePath, Long.toString(System.currentTimeMillis()) + ".png");
+        Toast.makeText(this, "Photo saved! Please find the pictures in My Photos.",
+                Toast.LENGTH_LONG).show();
         try {
             FileOutputStream out = new FileOutputStream(myImage);
-            imageToSave.compress(Bitmap.CompressFormat.JPEG, 80, out);
+            imageToSave.compress(Bitmap.CompressFormat.PNG, 100, out);
             out.flush();
             out.close();
         } catch (Exception e) {

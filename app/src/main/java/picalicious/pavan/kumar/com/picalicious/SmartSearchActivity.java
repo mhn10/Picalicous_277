@@ -22,6 +22,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -72,6 +73,7 @@ public class SmartSearchActivity extends AppCompatActivity {
     public String datapath;
     private TextView mImageDetails;
     private ImageView mMainImage;
+    private static ProgressBar progressBar;
 
 
     @Override
@@ -83,19 +85,23 @@ public class SmartSearchActivity extends AppCompatActivity {
 
         mImageDetails = findViewById(R.id.image_details);
         mMainImage = findViewById(R.id.main_image);
+        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+
 
     }
+
     public void sendMessage(View view) {
         // Do something in response to button
         Intent intent = new Intent(this, FirebaseSend.class);
         EditText editText = (EditText) findViewById(R.id.image_details);
         String message = editText.getText().toString();
-        message= message.concat(datapath+" "+message);
+        message = message.concat(datapath + " " + message);
         Log.i("firebase-send", message);
         intent.putExtra(FIREBASE_STRING, message);
-        intent.putExtra(FIREBASE_DATAPATH,datapath);
+        intent.putExtra(FIREBASE_DATAPATH, datapath);
         startActivity(intent);
     }
+
     public void startGalleryChooser() {
         if (PermissionUtils.requestPermission(this, GALLERY_PERMISSIONS_REQUEST, Manifest.permission.READ_EXTERNAL_STORAGE)) {
             Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
@@ -104,7 +110,7 @@ public class SmartSearchActivity extends AppCompatActivity {
                     | Intent.FLAG_GRANT_WRITE_URI_PERMISSION
                     | Intent.FLAG_GRANT_PERSISTABLE_URI_PERMISSION);
 
-           // intent.setAction(Intent.ACTION_OPEN_DOCUMENT);
+            // intent.setAction(Intent.ACTION_OPEN_DOCUMENT);
             startActivityForResult(Intent.createChooser(intent, "Select a photo"),
                     GALLERY_IMAGE_REQUEST);
         }
@@ -114,10 +120,10 @@ public class SmartSearchActivity extends AppCompatActivity {
         File dir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
         return new File(dir, FILE_NAME);
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
 
 
         if (requestCode == GALLERY_IMAGE_REQUEST && resultCode == RESULT_OK && data != null) {
@@ -126,8 +132,8 @@ public class SmartSearchActivity extends AppCompatActivity {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
                 getApplicationContext().getContentResolver().takePersistableUriPermission(sourceTreeUri, Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
             }
-            datapath=data.getData().toString();
-                    //.toString().replace("content://com.android.providers.media.documents/document/image%","");
+            datapath = data.getData().toString();
+            //.toString().replace("content://com.android.providers.media.documents/document/image%","");
             uploadImage(data.getData());
         } else if (requestCode == CAMERA_IMAGE_REQUEST && resultCode == RESULT_OK) {
             photoUri = FileProvider.getUriForFile(this, getApplicationContext().getPackageName() + ".provider", getCameraFile());
@@ -135,6 +141,7 @@ public class SmartSearchActivity extends AppCompatActivity {
             uploadImage(photoUri);
         }
     }
+
     @Override
     public void onRequestPermissionsResult(
             int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -240,7 +247,6 @@ public class SmartSearchActivity extends AppCompatActivity {
     }
 
 
-
     private static class LableDetectionTask extends AsyncTask<Object, Void, String> {
         private final WeakReference<SmartSearchActivity> mActivityWeakReference;
         private Vision.Images.Annotate mRequest;
@@ -267,6 +273,8 @@ public class SmartSearchActivity extends AppCompatActivity {
         }
 
         protected void onPostExecute(String result) {
+            progressBar.setVisibility(View.GONE);
+
             SmartSearchActivity activity = mActivityWeakReference.get();
             if (activity != null && !activity.isFinishing()) {
                 TextView imageDetail = activity.findViewById(R.id.image_details);
@@ -279,7 +287,9 @@ public class SmartSearchActivity extends AppCompatActivity {
 
     private void callCloudVision(final Bitmap bitmap) {
         // Switch text to loading
-        mImageDetails.setText(R.string.loading_message);
+        progressBar.setVisibility(View.VISIBLE);
+
+        //mImageDetails.setText(R.string.loading_message);
 
         // Do the real work in an async task, because we need to use the network anyway
         try {
@@ -316,7 +326,7 @@ public class SmartSearchActivity extends AppCompatActivity {
 
         List<EntityAnnotation> labels = response.getResponses().get(0).getLabelAnnotations();
         if (labels != null) {
-            for (int i=0; i<5;i++){
+            for (int i = 0; i < 5; i++) {
                 message.append(String.format(Locale.US, "%s,", labels.get(i).getDescription()));
                 message.append("\n");
             }
@@ -326,10 +336,6 @@ public class SmartSearchActivity extends AppCompatActivity {
 
         return message.toString();
     }
-
-
-
-
 
 
 }
