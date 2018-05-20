@@ -33,6 +33,7 @@ public class SearchFromDatabaseActivity extends Activity {
     private RecyclerView recyclerview;
     private Button btSubmit;
     SearchAdapter searchAdapter;
+    private TextView tvpic;
     public Uri uri;
 
     private List<SearchModel> searchModelList = new ArrayList<>();
@@ -50,21 +51,30 @@ public class SearchFromDatabaseActivity extends Activity {
 
         etSearch=(EditText)findViewById(R.id.etSearch);
         btSubmit=(Button)findViewById(R.id.btSubmit);
+        tvpic=(TextView)findViewById(R.id.tvpic);
 
         btSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String searchText= etSearch.getText().toString().trim();
+                searchModelList.clear();
                 Log.d("searchText","searchText"+searchText);
                 db_labels = new ArrayList<String>(db.photosDAO().getPhotoswithLabels(searchText));
                  Log.d("db_labels","db_labels"+db_labels);
-                 viewstodisplay();
+                if (db_labels.isEmpty()) {
+
+                    tvpic.setText("Oops!Looks like you forgot to add it to your database");
+
+                } else {
+                    viewstodisplay();
+                }
             }
         });
 
     }
 
     private void viewstodisplay() {
+        tvpic.setText("");
         recyclerview = (RecyclerView) findViewById(R.id.recyclerview);
         recyclerview.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutManager =
@@ -82,6 +92,8 @@ public class SearchFromDatabaseActivity extends Activity {
     }
 
     private void addData() {
+
+
         for(int i=0;i<db_labels.size();i++){
             SearchModel searchModel =new SearchModel();
 

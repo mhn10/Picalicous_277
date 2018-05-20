@@ -672,6 +672,10 @@
         "source": "C:\\Users\\pavan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b7c1e09f25eb57e778243c7c30144157\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
+        "merged": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon.png.flat",
+        "source": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\src\\main\\res\\drawable-v24\\icon.png"
+    },
+    {
         "merged": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
         "source": "C:\\Users\\pavan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b7c1e09f25eb57e778243c7c30144157\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
     },
@@ -870,6 +874,10 @@
     {
         "merged": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
         "source": "C:\\Users\\pavan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b7c1e09f25eb57e778243c7c30144157\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_corners.xml.flat",
+        "source": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\src\\main\\res\\drawable-v24\\rounded_corners.xml"
     },
     {
         "merged": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
@@ -1394,10 +1402,6 @@
     {
         "merged": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_bottom_navigation_item_background.xml.flat",
         "source": "C:\\Users\\pavan\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\ddcef73693c7f92988c6c2533c7cbea8\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corners.xml.flat",
-        "source": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\src\\main\\res\\drawable\\rounded_corners.xml"
     },
     {
         "merged": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",

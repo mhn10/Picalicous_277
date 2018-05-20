@@ -18,7 +18,7 @@
         <picalicious.pavan.kumar.com.picalicious.NativelyCustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Resolve!"
+            android:text="Smart Search"
             android:textColor="#ffffff"
             android:layout_marginTop="20dp"
             android:textSize="@dimen/slide_title"

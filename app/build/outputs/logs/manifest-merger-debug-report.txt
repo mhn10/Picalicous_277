@@ -95,9 +95,9 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\pa
 	android:label
 		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:19:9-54
+		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:19:9-43
 	android:icon
-		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:17:9-38
 	android:allowBackup
 		ADDED from C:\Users\pavan\Documents\PICA MHN PKS\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme

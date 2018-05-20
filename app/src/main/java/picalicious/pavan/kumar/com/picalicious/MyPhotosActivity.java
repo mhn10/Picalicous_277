@@ -6,6 +6,9 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,11 +20,12 @@ import android.widget.ImageView;
 import java.io.File;
 import java.util.ArrayList;
 
-public class MyPhotosActivity extends Activity {
+public class MyPhotosActivity extends Activity implements OnItemClickListener {
 
     ArrayList<String> f = new ArrayList<String>();// list of file paths
     File[] listFile;
-    private ImageAdapter imageAdapter;
+   // private ImageAdapter imageAdapter;
+    private ImageAdapterRecycler imageAdapterRecycler;
     private ImageView ivBack;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -36,10 +40,17 @@ public class MyPhotosActivity extends Activity {
 
             }
         });
+
         getFromSdcard();
-        GridView imagegrid = (GridView) findViewById(R.id.PhoneImageGrid);
-        imageAdapter = new ImageAdapter();
-        imagegrid.setAdapter(imageAdapter);
+        RecyclerView imagegrid = (RecyclerView) findViewById(R.id.PhoneImageGrid);
+        imagegrid.setHasFixedSize(true);
+        int numberOfColumns = 2;
+        imagegrid.setLayoutManager(new GridLayoutManager(this, numberOfColumns));
+        imageAdapterRecycler = new ImageAdapterRecycler(f);
+        imagegrid.setAdapter(imageAdapterRecycler);
+       // imageAdapterRecycler.setOnItemClickListener(this);
+
+
     }
 
     public void getFromSdcard()
@@ -59,6 +70,11 @@ public class MyPhotosActivity extends Activity {
 
             }
         }
+    }
+
+    @Override
+    public void onItemClick(String message, int position) {
+       imageAdapterRecycler.getItemId(position);
     }
 
     public class ImageAdapter extends BaseAdapter {
