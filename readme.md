@@ -45,7 +45,19 @@ dependencies {
 ```
 
 
-
+### Youtube Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=PnmKfe5Zamo
 " target="_blank"><img src="http://img.youtube.com/vi/PnmKfe5Zamo/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="340" height="250" border="10" /></a>
+
+
+##References
+REFERENCES
+
+WelcomeScreens : https://www.google.co.in/amp/s/www.androidhive.info/2016/05/android-build-intro-slider-app/amp/
+Button Animations: https://evgenii.com/blog/spring-button-animation-on-android/
+SlidingAnimations:https://stackoverflow.com/questions/5151591/android-left-to-right-slide-animation
+Calendar: com.applandeo.materialcalendarview.CalendarView
+Custom Activity for handling error : https://github.com/Ereza/CustomActivityOnCrash
+Images : https://www.flaticon.com
+
