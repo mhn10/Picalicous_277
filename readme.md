@@ -51,8 +51,8 @@ dependencies {
 alt="IMAGE ALT TEXT HERE" width="340" height="250" border="10" /></a>
 
 
-##References
-REFERENCES
+## References
+
 
 WelcomeScreens : https://www.google.co.in/amp/s/www.androidhive.info/2016/05/android-build-intro-slider-app/amp/
 Button Animations: https://evgenii.com/blog/spring-button-animation-on-android/
