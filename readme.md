@@ -1,6 +1,6 @@
 # Picalicous MobileAPP
 ##### *Everything beyond a CLICK!*
-Android App developed as part of CMPE 277 at SJSU, using google Cloud vision API. The app is able to click a picture and store it in a folder. Then we can label the image using google cloud vision API in the backend. The labels are stored locally in the app. Once labelled we can search through the labels without data connection. We have used Room Persistence Library to implement offline search. 
+Android App developed as part of CMPE 277 at SJSU, using google Cloud vision API. The app is able to click a picture and store it in a folder. Then we can label the image using google cloud vision API in the backend. The labels are stored locally in the app. Once labelled we can search through the labels without data connection. We have used Room Persistence Library to implement offline search. Working with Firebase MLkit so that, we can enable offline detection of labels whenever network connectivity is not there.  
 
 
 ## Features
@@ -53,6 +53,8 @@ alt="IMAGE ALT TEXT HERE" width="340" height="250" border="10" /></a>
 
 ## References
 
+Google Cloud Vision https://github.com/GoogleCloudPlatform/cloud-vision/blob/master/android/README.md
+Room Persistence Library: https://developer.android.com/topic/libraries/architecture/room
 
 WelcomeScreens : https://www.google.co.in/amp/s/www.androidhive.info/2016/05/android-build-intro-slider-app/amp/
 Button Animations: https://evgenii.com/blog/spring-button-animation-on-android/
