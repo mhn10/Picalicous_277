@@ -51,6 +51,7 @@ public class FirebaseSend extends AppCompatActivity {
             // photo.setFilepath(datapath);
             // photo.setLabels(message);
             db.photosDAO().insert(photo);
+            Toast.makeText(this, R.string.image_upload, Toast.LENGTH_LONG).show();
         } catch (Exception e) {
             e.printStackTrace();
             Log.d(TAG, "Image picking failed because " + e.getMessage());
@@ -61,7 +62,7 @@ public class FirebaseSend extends AppCompatActivity {
 
 
         uri = Uri.parse(datapath);
-        //remove string
+/*        //remove string
         message = message.replace("This picture contains :","");
         labelsArray = message.trim().split("\\s*,\\s*");
         pid = labelsArray[5];
@@ -69,11 +70,11 @@ public class FirebaseSend extends AppCompatActivity {
         pid = pid.substring(0,7);
 
         List<String> labelslist = new ArrayList<String>(Arrays.asList( labelsArray ));
-        labelslist.remove(5);
+        labelslist.remove(5);*/
 
-        String s = "dog";
+       //String s = "dog";
 
-        List<String> db_labels = new ArrayList<String>(db.photosDAO().getPhotoswithLabels(s));
+       // List<String> db_labels = new ArrayList<String>(db.photosDAO().getPhotoswithLabels(s));
         /*
         //List<String> toplabels = new ArrayList<String>(labelslist.subList(0,5));
 
@@ -83,11 +84,11 @@ public class FirebaseSend extends AppCompatActivity {
         }
         */
         //Log.i("firebase_textview", labelslist.toString());
-        Log.i("pid", pid);
+        //Log.i("pid", pid);
 
-        message2= TextUtils.join(", ", db_labels);
-        TextView textView = findViewById(R.id.firebase_string);
-        textView.setText(db_labels.toString());
+        //message2= TextUtils.join(", ", db_labels);
+       // TextView textView = findViewById(R.id.firebase_string);
+       // textView.setText(db_labels.toString());
 
         mMainImage = findViewById(R.id.imageView_firebase);
 
