@@ -9,14 +9,14 @@
 
     <TextView
         android:id="@+id/firebase_string"
-        android:layout_width="236dp"
-        android:layout_height="261dp"
+        android:layout_width="225dp"
+        android:layout_height="47dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto"
         android:lineSpacingExtra="8sp"
         android:scrollbars="vertical"
-        android:text="firebase_string"
+        android:text="image Uploaded"
         android:textAlignment="center"
         android:textSize="18sp"
         android:typeface="normal"
@@ -27,8 +27,8 @@
 
     <ImageView
         android:id="@+id/imageView_firebase"
-        android:layout_width="181dp"
-        android:layout_height="159dp"
+        android:layout_width="216dp"
+        android:layout_height="270dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"

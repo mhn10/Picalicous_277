@@ -26,6 +26,9 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
 import com.google.api.client.http.HttpTransport;
@@ -40,6 +43,10 @@ import com.google.api.services.vision.v1.model.BatchAnnotateImagesResponse;
 import com.google.api.services.vision.v1.model.EntityAnnotation;
 import com.google.api.services.vision.v1.model.Feature;
 import com.google.api.services.vision.v1.model.Image;
+import com.google.firebase.ml.vision.common.FirebaseVisionImage;
+import com.google.firebase.ml.vision.FirebaseVision;
+import com.google.firebase.ml.vision.label.FirebaseVisionLabel;
+import com.google.firebase.ml.vision.label.FirebaseVisionLabelDetector;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -59,8 +66,8 @@ public class SmartSearchActivity extends AppCompatActivity {
     private static final String ANDROID_PACKAGE_HEADER = "X-Android-Package";
     private static final int MAX_LABEL_RESULTS = 10;
     private static final int MAX_DIMENSION = 1200;
-
-
+    public FirebaseVisionImage image;
+    public static String text;
     public static final String FIREBASE_STRING = "picalicious.pavan.kumar.com.picalicious.FIREBASE_STRING";
     public static final String FIREBASE_DATAPATH = "picalicious.pavan.kumar.com.picalicious.FIREBASE_DATAPATH";
 
@@ -158,6 +165,8 @@ public class SmartSearchActivity extends AppCompatActivity {
 
 
     public void uploadImage(Uri uri) {
+
+        text="";
         if (uri != null) {
             try {
                 // scale the image to save on bandwidth
@@ -165,8 +174,36 @@ public class SmartSearchActivity extends AppCompatActivity {
                         scaleBitmapDown(
                                 MediaStore.Images.Media.getBitmap(getContentResolver(), uri),
                                 MAX_DIMENSION);
+                image = FirebaseVisionImage.fromBitmap(bitmap);
+                FirebaseVisionLabelDetector detector = FirebaseVision.getInstance()
+                        .getVisionLabelDetector();
+                Log.d("uploadimage","uploading image");
+                Task<List<FirebaseVisionLabel>> result =
+                        detector.detectInImage(image)
+                                .addOnSuccessListener(
+                                        new OnSuccessListener<List<FirebaseVisionLabel>>() {
+                                            @Override
+                                            public void onSuccess(List<FirebaseVisionLabel> labels) {
+                                                // Task completed successfully
+                                                // ...
+                                                for (FirebaseVisionLabel label: labels) {
+                                                    text = text + label.getLabel()+", ";
+                                                    Log.d("mlkit", text);
 
-                callCloudVision(bitmap);
+                                                }
+                                                callCloudVision(bitmap);
+                                            }
+                                        })
+                                .addOnFailureListener(
+                                new OnFailureListener() {
+                                    @Override
+                                    public void onFailure(@NonNull Exception e) {
+                                        // Task failed with an exception
+                                        // ...
+                                        text = "";
+                                    }
+                                });
+
                 mMainImage.setImageBitmap(bitmap);
 
             } catch (IOException e) {
@@ -259,17 +296,20 @@ public class SmartSearchActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(Object... params) {
             try {
-                Log.d(TAG, "created Cloud Vision request object, sending request");
+                Log.d(TAG, "created Cloud Vision request object, sending request"+text);
                 BatchAnnotateImagesResponse response = mRequest.execute();
                 return convertResponseToString(response);
 
             } catch (GoogleJsonResponseException e) {
                 Log.d(TAG, "failed to make API request because " + e.getContent());
+                Log.d("in do background catch", text);
             } catch (IOException e) {
                 Log.d(TAG, "failed to make API request because of other IOException " +
                         e.getMessage());
+                Log.d("in do background catch", text);
+
             }
-            return "Cloud Vision API request failed. Check logs for details.";
+            return text;
         }
 
         protected void onPostExecute(String result) {

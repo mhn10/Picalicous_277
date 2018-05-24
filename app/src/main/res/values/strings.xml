@@ -25,4 +25,6 @@
 
     <string name="image_picker_error">Something is wrong with that image. Pick a different one please.</string>
     <string name="same_image">Image Already exists and labelled, Visit Gallery.</string>
+    <string name="image_upload">Image has been uploaded, visit search.</string>
+
 </resources>

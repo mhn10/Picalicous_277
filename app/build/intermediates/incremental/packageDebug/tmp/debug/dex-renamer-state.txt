@@ -1,4 +1,7 @@
-#Sun May 20 13:37:35 PDT 2018
-base.0=C\:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu May 24 00:17:18 PDT 2018
+base.0=D\:\\MORE\\android studio projects and libraries\\picalicous_withoutmlkit\\Picalicous_277\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=D\:\\MORE\\android studio projects and libraries\\picalicous_withoutmlkit\\Picalicous_277\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
